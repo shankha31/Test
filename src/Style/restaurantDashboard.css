@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+.restaurantDashboardContainer{
+    width: 100vw;
+    height: 99vh;
+}
+.restaurantDashboardSubContainer{
+    position: relative;
+    height: 88%;
+}
+.offlineTxt{
+    font-size: 15px;
+    color: #B4B4B3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.SurplusFoodCardContainer{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 470px;
+}
+.surplusFoodHader{
+    margin-top: 1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0.5rem 1rem;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400s;
+    color: #BF3131;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: large;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
